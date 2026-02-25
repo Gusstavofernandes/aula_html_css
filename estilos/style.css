@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+*{
+    margin:0px;
+}
+header{
+ background-color: pink;
+ height: 20%;
+}
+nav{
+    background-color: white;
+    width: 100vw;
+    height: 15%;
+    color: pink;
+}
+nav > ul{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+nav li{
+    margin-top: 1%;
+   padding-right: 3%;
+   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   padding-bottom: 0.5em;
+}
+a.menu{
+    color: rgb(255, 159, 175);
+    text-decoration: none;
+}
+a.menu:hover{
+    border-bottom: 1px solid pink;
+}
